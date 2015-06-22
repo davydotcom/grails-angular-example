@@ -1,7 +1,7 @@
 (function(){
   'use strict';
   
-  var app = angular.module('five15');
+  var app = angular.module('five15.login');
   
   app.controller('LoginController', function($scope){
     $scope.doLogin = function doLogin(){

@@ -38,10 +38,7 @@ assets {
     minifyCss = true
     configOptions = [
         angular : [
-            templateFolder: 'templates',
-            moduleNameBase: '',
-            compressHtml: true,
-            preserveHtmlComments: false,
+            moduleNameBase: 'five15',
             includePathInName: true
         ]
     ]

@@ -1,7 +1,9 @@
+//= require login/module
+
 (function(){
   'use strict';
 
-  var app = angular.module('five15', ['ui.router', 'ui.bootstrap', 'ngAnimate']);
+  var app = angular.module('five15', ['ui.router', 'ui.bootstrap', 'ngAnimate', 'five15.login']);
   
   app.config(function($stateProvider, $urlRouterProvider){
     $urlRouterProvider.otherwise('/login');
@@ -10,7 +12,7 @@
       .state('login', {
         url: '/login',
         controller: 'LoginController',
-        templateUrl: 'Login/login.htm'
+        templateUrl: '/login/login.htm'
       });
   });
 
