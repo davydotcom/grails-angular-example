@@ -10,6 +10,3 @@
 //= require bower_components/angular-ui-bootstrap-bower/ui-bootstrap-tpls
 //= require bower_components/ui-router/release/angular-ui-router
 //= require app
-//= require Login/LoginController
-//= require_tree .
-//= require_self

@@ -17,10 +17,7 @@ spring:
 grails:
     assets:
         angular:
-            templateFolder: 'templates'
             moduleNameBase: 'five15'
-            compressHtml: true
-            preserveHtmlComments: false
             includePathInName: true
     mime:
         disable:
